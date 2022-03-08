@@ -16,6 +16,7 @@
 		1DC57CF727CF4930009A5B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC57CF527CF4930009A5B5C /* Main.storyboard */; };
 		1DC57CF927CF4931009A5B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC57CF827CF4931009A5B5C /* Assets.xcassets */; };
 		1DC57CFC27CF4931009A5B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC57CFA27CF4931009A5B5C /* LaunchScreen.storyboard */; };
+		1DC861FD27D69EF900D8E105 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC861FC27D69EF900D8E105 /* CommentCell.swift */; };
 		934CA959D41F8D6B7F6B5F24 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B954D286CC583783F324C /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		1DC57CF827CF4931009A5B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC57CFB27CF4931009A5B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DC57CFD27CF4931009A5B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC861FC27D69EF900D8E105 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		60409FBE003DFA1C4BD92CF2 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		C90B954D286CC583783F324C /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				1DC57CEF27CF4930009A5B5C /* AppDelegate.swift */,
 				1DC57CF127CF4930009A5B5C /* SceneDelegate.swift */,
 				1DC57CF527CF4930009A5B5C /* Main.storyboard */,
+				1DC861FC27D69EF900D8E105 /* CommentCell.swift */,
 				1D469D9027D06FE4007C5904 /* CameraViewController.swift */,
 				1D3B82BC27CFD8FE008E8E1F /* LoginViewController.swift */,
 				1D3B82BE27CFD90D008E8E1F /* FeedViewController.swift */,
@@ -221,6 +224,7 @@
 				1D3B82BF27CFD90D008E8E1F /* FeedViewController.swift in Sources */,
 				1DC57CF227CF4930009A5B5C /* SceneDelegate.swift in Sources */,
 				1D469D9627D08940007C5904 /* PostCell.swift in Sources */,
+				1DC861FD27D69EF900D8E105 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
